@@ -168,7 +168,10 @@ label{
 
 
 /* Home page design code */
-
+.container{
+    width: 100vw;
+    height:140px;
+}
 .container-home{
     width: 100vw;
     height: 140px;
@@ -274,4 +277,97 @@ input:hover{
     margin-top: 180px;
     width: 80%;
     height: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px #b1b1b1;
+}
+
+
+/* item card */
+.wrapper{
+   
+    display: flex;
+    justify-content: center;
+}
+.card-container{
+    width:80%;
+    height:450px;
+    /* background-color: #6A6A6A; */
+    margin-top: 40px;
+    display: flex;
+   gap: 100px;
+    
+}
+
+.card{
+    width: 450px;
+    height: 450px;
+    background-color: #5eff0046;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 5px #b1b1b1;
+}
+
+.card:hover{
+    border: 2px solid white;
+    background-color: #6a6a6a42;
+}
+.card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.card p  {
+    font-size: 20px;
+    font-weight: 500;
+    color: #6A6A6A;
+}
+
+.card p:hover{
+    color: #ffffff;
+}
+
+
+.card a  {
+    text-decoration: none;
+}
+.card-container1{
+    width:80%;
+    height:450px;
+    /* background-color: #6A6A6A; */
+    margin-top: 40px;
+    display: flex;
+   gap: 100px;
+  
+    
+}
+.head-wrap{
+    display: flex;
+    justify-content: center;
+}
+.product{
+    width:80%;
+    /* background-color: #6A6A6A; */
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+   margin-top: 220px;  
+}
+.product h1{
+    font-family: 'Poppins','Times New Roman';
+    color: #6A6A6A;
+}
+
+/* footer */
+
+footer{
+    width: 100vw;
+    height: 50vh;
+    background-color: #0000001c;
+    margin-top: 40px;
 }
